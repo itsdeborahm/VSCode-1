@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    padding: 25px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navegação ul {
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+}
+
+.navegação ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#sobre {
+    text-align: center;
+    background: #EDEAEA;
+    padding: 60px 20px;
+}
+
+.sobre-imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.sobre-nome {
+    color: lightskyblue;
+    font-size: 36px;
+    margin-top: 20px;
+
+}
+
+.sobre-título {
+    color: #C5C0C0;
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+
+.sobre-descrição {
+    font-size: 16px;
+    line-height: 10px;
+    margin-top: 10px;
+
+}
+
+#formação {
+    padding: 50px 150px;
+}
+
+.formação-título {
+    color: #49bfb3;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.formação-lista {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.formação-lista h3 {
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+.formação-lista a {
+    color: #2f80ed;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.formação-lista p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#experiências {
+    background: #EDEAEA;
+    padding: 50px 150px;
+}
+
+.experiências-título {
+    color: #49bfb3;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.experiências-lista {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.experiências-lista h3 {
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+.experiências-lista a {
+    color: #2f80ed;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.experiências-lista p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#contato {
+    padding: 50px 150px;
+}
+
+.contato-título {
+    color: #49bfb3;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contato-formulário {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.contato-grupoinput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato-input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.contato-input input {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

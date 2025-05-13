@@ -1,73 +1,108 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Déborah Machado</title>
-    </head>
-    <body>
-        <header>
-            <h1>Déborah Machado</h1>
-            <h2>Corretora de redação ENEM</h2>
-        </header>
-        <main>
-            <section>
-                <div style="margin-left: 100px;">
-            <img src="Imagem de uma lapiseira sobre papel.jpg" alt="Imagem de uma lapiseira sobre papel" width="150" title="Imagem de uma lapiseira sobre papel"/>
-                </div>
-            <h3>Sobre mim:</h3>
-                <p>
-                    Olá, eu sou a Déborah Machado e sou <em>formada em letras.</em>
-                    <br /> Nessa área, atuo como <strong>corretora de redações do Enem.</strong>
-                    <br /> Atualmente, estou realizando um curso de introdução à programação por ter desenvolvido interesse pela área,
-                    <br /> o que me possibilita integrar tecnologia e educação!
-                    <br /> Tenho 24 anos e meus hobbies envolvem ler e assistir novas séries.
-                </p>
-                <p> Como afirma Paulo Freire:
-                    <cite>“Ensinar não é transferir conhecimento, mas criar as possibilidades para a sua própria produção ou a sua construção.”</cite>
-                </p>
-            </section>
-            <section>
-            <h3>Por que contar comigo?</h3>
-            <ul style="list-style-type: square;">
-                <li>Te ajudo a alcançar o seu máximo potencial!</li>
-                <li>Diversos alunos +900</li>
-                <li>3 anos de experiência na área</li>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Déborah Machado</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="menu">
+        <h1 class="logo">Déborah Machado</h1>
+        <nav class="navegação">
+            <ul>
+                <li>Sobre mim</li>
+                <li>Formação</li>
+                <li>Experiências</li>
+                <li>Contato</li>
             </ul>
-            </section>
-            <section>
-                <h4>Entre em contato:</h4>
-                    <form>
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="nome" placeholder="Nome completo" /><br />
-                    <br />
-                        <label for="telefone">Telefone: </label>
-                        <input type="telefone" id="telefone" name="telefone" placeholder="(00) 00000-0000"/><br />
-                    <br />
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email" placeholder="exemplo@gmail.com"/><br />
-                    <br />
-                        <label for="mensagem">Mensagem:</label><br />
-                        <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem" rows="7"></textarea><br />
-                    <br />
-                        <button type="submit">Enviar</button>
-                    </form>
-            </section>
-        </main>
-        <footer>
-            <h4>Ou acesse as minhas redes sociais:</h4>
-            <ul style="list-style-type: square;">
-                <li>
-                        <a href="https://www.linkedin.com/in/d%C3%A9borah-machado-6147b0255/" target="_blank">LinkedIn</a>
-                        <img src="Imagem do Símbolo do LinkedIn.png" alt="Símbolo do LinkedIn" width="15" title="Símbolo do LinkedIn"/>
-                </li>
-                <li>
-                        <a href="https://github.com/itsdeborahm" target="_blank">GitHub</a>
-                        <img src="Imagem do Símbolo do GitHub.png" alt="Símbolo do GitHub" width="25" title="Símbolo do GitHub"/>
-                </li>
-            </ul>
-            <div>
-                © 2025 Déborah Machado. Todos os direitos reservados.
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <img class="sobre-imagem" src="Imagens/Imagem de uma lapiseira sobre papel.jpg"
+                alt="Imagem de uma lapiseira sobre papel" title="Imagem de uma lapiseira sobre papel" />
+            <h2 class="sobre-nome">Déborah Machado</h2>
+            <h3 class="sobre-título">Corretora de redação do Enem</h3>
+            <p class="sobre-descrição">
+                Formada em letras</em> e <strong>corretora de redações do Enem.</strong> <br />
+                <br /> Atualmente, realizo um curso de introdução à programação, <br />
+                <br /> o que me possibilita integrar tecnologia e educação! <br />
+            </p>
+        </section>
+        <section id="formação">
+            <h2 class="formação-título">Formação</h2>
+            <div class="formação-lista">
+                <h3>Graduação em Letras na UFRJ</h3>
+                <a href="https://portal.letras.ufrj.br/" target="_blank">Universidade Federal do Rio de Janeiro</a>
+                <p>Graduação em Letras: português-inglês na UFRJ</p>
+
+                <h3>Curso de Programação</h3>
+                <a href="https://minasprogramam.com/" target="_blank">Instituto Minas Programam</a>
+                <p>Curso introdutório de desenvolvimento front-end, ensinando conceitos de HTML, CSS e JavaScript</p>
             </div>
-        </footer>
-    </body>
+        </section>
+        <section id="experiências">
+            <h2 class="experiências-título">Experiências</h2>
+            <div class="experiências-lista">
+                <h3>Programa Salvaguarda</h3>
+                <a href="https://programasalvaguarda.com.br/redacao/" target="_blank">Programa Salvaguarda</a>
+                <p>Programa de correção de redação do Enem voluntário, no qual participei por 2 anos, ajudando alunos de
+                    forma humanizada.</p>
+
+                <h3>Salva-vidas da redação</h3>
+                <a href="https://salvavidasdaredacao.com/" target="_blank">Salva-vidas da redação</a>
+                <p>Curso de redação, no qual atuo atualmente corrigindo redações de alunos do modelo Enem de modo
+                    freelancer.</p>
+            </div>
+        </section>
+        <section id="contato">
+            <h2 class="contato-título">Entre em contato</h2>
+            <form class="contato-formulário">
+                <div class="contato-grupoinput">
+                    <div class="contato-input">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Nome completo" />
+                    </div>
+
+                    <div class="contato-input">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" />
+                    </div>
+                </div>
+
+                <div class="contato-input">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem" rows="7"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h4>Ou acesse as minhas redes sociais:</h4>
+        <ul style="list-style-type: square;">
+            <li>
+                <a href="https://www.linkedin.com/in/d%C3%A9borah-machado-6147b0255/" target="_blank">LinkedIn</a>
+                <img src="Imagens/Imagem do Símbolo do LinkedIn.png" alt="Símbolo do LinkedIn" width="15"
+                    title="Símbolo do LinkedIn" />
+            </li>
+            <li>
+                <a href="https://github.com/itsdeborahm" target="_blank">GitHub</a>
+                <img src="Imagens/Imagem do Símbolo do GitHub.png" alt="Símbolo do GitHub" width="25"
+                    title="Símbolo do GitHub" />
+            </li>
+        </ul>
+        <div>
+            © 2025 Déborah Machado. Todos os direitos reservados.
+        </div>
+    </footer>
+</body>
+
 </html>
