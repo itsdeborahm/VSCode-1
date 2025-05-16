@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,24 +14,30 @@ body {
 #menu {
     display: flex;
     justify-content: space-between;
-    background-color: lightskyblue;
+    background-color: #938DF8;
     padding: 25px;
 }
 
 .logo {
     font-size: 24px;
+    color: #fff;
 }
 
 .navegação ul {
     list-style: none;
     display: flex;
-    color: aliceblue;
+    color: #fff;
 }
 
 .navegação ul li {
     margin-right: 20px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.navegação ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 #sobre {
@@ -45,7 +55,7 @@ body {
 }
 
 .sobre-nome {
-    color: lightskyblue;
+    color: #938DF8;
     font-size: 36px;
     margin-top: 20px;
 
@@ -167,15 +177,55 @@ body {
     padding: 10px;
     font-size: 18px;
     border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
 }
 
+.contato-input textarea {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
+.btn-enviar {
+    background-color: #938DF8;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
 
+.rodapé {
+    background-color: #938DF8;
+    display: flex;
+    padding: 30px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.rodapé-contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
 
+.rodapé-contatos a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
 
+.rodapé-contatos img {
+    vertical-align: middle;
+}
 
-
+.logo-minas {
+    height: 80px;
+}
 
 
 
