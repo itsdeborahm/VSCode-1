@@ -148,7 +148,7 @@ body {
 }
 
 .contato-título {
-    color: #49bfb3;
+    color: #49BFB3;
     font-size: 30px;
     margin-bottom: 30px;
 }
@@ -185,6 +185,11 @@ body {
     font-size: 18px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.contato-input label {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .btn-enviar {
