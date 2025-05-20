@@ -70,15 +70,8 @@ body {
 
 .sobre-descrição {
     font-size: 16px;
-    line-height: 10px;
+    line-height: 1.6;
     margin-top: 10px;
-}
-
-@media (max-width: 600px) {
-    .sobre-descrição {
-        line-height: 1.6;
-    }
-
 }
 
 #formação {
@@ -88,7 +81,7 @@ body {
 .formação-título {
     color: #49bfb3;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .formação-lista {
@@ -123,7 +116,7 @@ body {
 .experiências-título {
     color: #49bfb3;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .experiências-lista {
@@ -157,7 +150,7 @@ body {
 .contato-título {
     color: #49bfb3;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .contato-formulário {
@@ -176,7 +169,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-
+    margin-bottom: 20px;
 }
 
 .contato-input input {
@@ -232,41 +225,3 @@ body {
 .logo-minas {
     height: 80px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
